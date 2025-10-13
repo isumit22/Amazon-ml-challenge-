@@ -1,3 +1,35 @@
+# 1-Page Methodology Template
+
+Team: <Your Team Name>
+Contact: <Contact Email>
+
+1. Problem statement (1-2 sentences)
+
+2. Data preprocessing (bulleted):
+- Text cleaning and tokenization
+- Image download and resizing
+- Handling missing values
+
+3. Features engineered (bulleted):
+- Text embeddings (sentence-transformers)
+- Image embeddings (timm/EfficientNet)
+- Tabular features (IPQ, numeric fields)
+
+4. Model & architecture (bulleted):
+- Base model: PyTorch MLP + image/text encoders
+- Ensemble: N copies with different seeds
+- Loss: MSE / Huber (tuned)
+
+5. Training details (hyperparameters):
+- Epochs, batch size, learning rate, optimizer, scheduler
+
+6. Evaluation & SMAPE on validation set:
+- Report final SMAPE and brief analysis
+
+7. Environment & reproducibility:
+- Python / conda environment, major packages
+
+8. Notes & future work
 # ML Challenge 2025: Smart Product Pricing Solution Template
 
 **Team Name:** [Your Team Name]  
