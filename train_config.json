@@ -1,0 +1,7 @@
+{
+  "epochs": 35,
+  "batch_size": 256,
+  "num_workers": 0,
+  "device": "cuda",
+  "cuda_available": true
+}
