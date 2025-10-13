@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+.idea/
+.vscode/
+.DS_Store
+*.log
+*.sql
+*.sqlite
+.ipynb_checkpoints
+.pytest_cache/
+*.pth
+image_emb.npy
+# dataset large files (consider using Git LFS)
+# Uncomment to stop tracking CSVs: (recommended if you want to avoid large files in git)
+# dataset/*.csv
